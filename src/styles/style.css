@@ -1,0 +1,8 @@
+* {
+  font-family: sans-serif;
+}
+
+main {
+  max-width: 95ch;
+  margin: 10vh auto;
+}
