@@ -1,21 +1,15 @@
 {%- from "component.njk" import component with context -%}
-{# 
-{% set css %}
-  {% include "../style.css" %}
-{% endset %} #}
 
 <!doctype html>
 
 <html lang="{{ page.lang }}" dir="{{ dir }}" class="antialiased">
   <head>
-
-  <title>IndieWeb Examples</title>
-
-  <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
   </head>
 
-
-  <body class="">
+  <body>
 
     {{ content | safe }}
 
