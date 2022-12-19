@@ -1,8 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 * {
   font-family: sans-serif;
 }
 
 main {
-  max-width: 95ch;
+  max-width: 85ch;
   margin: 10vh auto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+main p {
+  line-height: 1.5;;
 }
